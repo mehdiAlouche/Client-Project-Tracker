@@ -47,7 +47,7 @@ src/
 
 1. Clone the repository:
 ```bash
-cd express-mongodb
+cd Client-Project-Tracker
 ```
 
 2. Install dependencies:
@@ -373,4 +373,5 @@ This roadmap outlines the full feature set planned for the API beyond the curren
 - **Express-validator** - Input validation
 - **Morgan** - HTTP request logger
 - **Winston** - Logging
+
 
