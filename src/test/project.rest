@@ -1,0 +1,43 @@
+# Create Project
+POST http://localhost:3000/api/projects
+Content-Type: application/json
+
+{
+  "name": "Test Project",
+  "description": "Test Description",
+  "status": "planning"
+}
+
+### Get All Projects
+GET http://localhost:3000/api/projects
+Content-Type: application/json
+
+{
+  "name": "Test Project",
+  "description": "Test Description",
+  "status": "planning"
+}
+
+### Get Project by ID 
+GET http://localhost:3000/api/projects/123
+
+### Update Project
+PUT http://localhost:3000/api/projects/123
+Content-Type: application/json
+
+{
+  "name": "Updated Test Project",
+  "description": "Updated Test Description",
+  "status": "in-progress"
+}
+
+### Delete Project  
+DELETE http://localhost:3000/api/projects/123
+Content-Type: application/json
+
+{
+  "name": "Test Project",
+  "description": "Test Description",
+  "status": "planning"
+}
+

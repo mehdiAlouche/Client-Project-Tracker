@@ -1,0 +1,28 @@
+{
+  "name": "express-mongodb-crud-api",
+  "version": "1.0.0",
+  "description": "Modular REST API with Express and MongoDB using JWT auth and role-based authorization",
+  "type": "module",
+  "main": "src/main.js",
+  "engines": {
+    "node": ">=20.6.0"
+  },
+  "scripts": {
+    "dev": "node src/main.js",
+    "start": "node src/main.js"
+  },
+  "keywords": ["express", "mongodb", "crud", "jwt", "auth"],
+  "author": "",
+  "license": "ISC",
+  "imports": {
+    "#@/*": "./src/*"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^8.0.3",
+    "jsonwebtoken": "^9.0.2",
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.3.1"
+  }
+}
+
